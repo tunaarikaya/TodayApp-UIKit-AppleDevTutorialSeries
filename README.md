@@ -1,101 +1,20 @@
-# Today: A Modern iOS Reminder Application
+# Today
 
-## Overview
+This is a productivity app for iOS that presents daily reminders. The goal of Today is not only to help users focus on their tasks for the day, but also to use visual design and animation to present a muted, calm interface.
 
-"Today" is a clean, intuitive iOS application designed to help users manage their daily tasks and reminders. Built with Swift and UIKit, this app showcases modern iOS development practices including UICollectionView with compositional layouts and diffable data sources.
+## Reminder list
 
-## Features
+The main screen of the app displays a list of a user’s reminders. The segmented control in the navigation bar lets users filter reminders by due date categories: Today, Future, or All. The user can complete reminders by tapping a done button. The progress circle—the large circle above the reminder list—fills in as the user completes reminders. Tapping the Add button (+) in the navigation bar creates a new reminder.
 
-- **Intuitive List Interface**: Easily view all your reminders in a clean, grouped list format
-- **Modern UI Architecture**: Built using Apple's latest UICollectionView patterns
-- **Smooth Animations**: Enjoy fluid transitions when adding, updating, or completing reminders
-- **iOS Integration**: Designed to feel like a native part of your iOS experience
+## Reminder view and editing modes
 
-## Technical Implementation
+The detail screen shows more information about a reminder, including its title, due date, time due, and additional notes. In view mode, as shown here, the reminder details appear in rows with icons. The user can alter the reminder’s details by tapping the Edit button.
 
-This project demonstrates several modern iOS development techniques:
+In editing mode, a visually distinct view displays editable fields and pickers to let the user change details. You’ll reuse this edit view to display the Add Reminder screen.
 
-- **UICollectionView Compositional Layout**: Creating flexible, responsive list layouts
-- **Diffable Data Sources**: Managing data changes with automatic animations
-- **Cell Registration Pattern**: A modern approach to collection view cell configuration
-- **MVC Architecture**: Clean separation of data and presentation logic
+## Add reminder screen
 
-## Getting Started
+The Add Reminder screen appears when the user taps the Add button (+) in the reminder list. This screen shares cells with the edit view, but presents modally instead of pushing onto the navigation stack.
 
-### Prerequisites
-
-- Xcode 14 or later
-- iOS 14.0+ deployment target
-- Swift 5.5+
-
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/today-reminder-app.git
-```
-
-2. Open the project in Xcode
-```bash
-cd today-reminder-app
-open project1.xcodeproj
-```
-
-3. Build and run the application on your preferred simulator or device
-
-## Project Structure
-
-```
-project1/
-├── Models/
-│   └── Reminder.swift       # Data model for reminder items
-├── Controllers/
-│   └── ReminderListViewController.swift  # Main list view controller
-├── Views/
-│   └── [Custom views will be added here]
-├── Resources/
-│   ├── Assets.xcassets      # App images and icons
-│   └── Info.plist           # App configuration
-└── Supporting Files/
-    └── AppDelegate.swift    # Application lifecycle management
-```
-
-## Future Enhancements
-
-- Add ability to create and edit reminders
-- Implement reminder categories and filtering
-- Add push notifications for deadline reminders
-- Support for recurring reminders
-- Cloud synchronization
-- Dark mode support
-- Localization for multiple languages
-
-## Development Roadmap
-
-- **Phase 1** ✅ Basic UI implementation with sample data
-- **Phase 2** ⏳ CRUD operations for reminders
-- **Phase 3** 📅 Notifications and date handling
-- **Phase 4** 🔄 Persistent storage and sync
-- **Phase 5** 🌐 Advanced features and integrations
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-## Acknowledgments
-
-- Apple's [UIKit Documentation](https://developer.apple.com/documentation/uikit)
-- Inspired by Apple's built-in Reminders app
-- Created as part of a modern iOS development learning journey
-
----
-
-Created with  by Mehmet Tuna Arıkaya
+## Screenshots
+<img src="/iOS-App-Dev-Tutorials/Today/Screenshots/Today.gif" width="300"/>
