@@ -18,7 +18,7 @@ This project demonstrates several modern iOS development techniques:
 - **UICollectionView Compositional Layout**: Creating flexible, responsive list layouts
 - **Diffable Data Sources**: Managing data changes with automatic animations
 - **Cell Registration Pattern**: A modern approach to collection view cell configuration
-- **MVVM Architecture**: Clean separation of data and presentation logic
+- **MVC Architecture**: Clean separation of data and presentation logic
 
 ## Getting Started
 
@@ -88,9 +88,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
@@ -100,4 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Created with ❤️ by Mehmet Tuna Arıkaya
+Created with  by Mehmet Tuna Arıkaya
