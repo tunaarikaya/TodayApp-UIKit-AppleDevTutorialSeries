@@ -1,20 +1,37 @@
-# Todayy
+# 🎉 Welcome to TodayApp-UIKit-AppleDevTutorialSeries!  
 
-This is a productivity app for iOS that presents daily reminders. The goal of Today is not only to help users focus on their tasks for the day, but also to use visual design and animation to present a muted, calm interface.
+![GitHub stars](https://img.shields.io/github/stars/tunaarikaya/TodayApp-UIKit-AppleDevTutorialSeries?style=social) ![GitHub forks](https://img.shields.io/github/forks/tunaarikaya/TodayApp-UIKit-AppleDevTutorialSeries?style=social) ![GitHub issues](https://img.shields.io/github/issues/tunaarikaya/TodayApp-UIKit-AppleDevTutorialSeries)  
 
-## Reminder list
+## 🚀 Introduction  
+This repository is dedicated to providing a comprehensive guide and resources for building applications using UIKit for Apple platforms. Whether you're a beginner or an experienced developer, you'll find useful tutorials and code snippets.  
 
-The main screen of the app displays a list of a user’s reminders. The segmented control in the navigation bar lets users filter reminders by due date categories: Today, Future, or All. The user can complete reminders by tapping a done button. The progress circle—the large circle above the reminder list—fills in as the user completes reminders. Tapping the Add button (+) in the navigation bar creates a new reminder.
+## 📚 Table of Contents  
+1. [Getting Started](#getting-started)  
+2. [Features](#features)  
+3. [Tutorials](#tutorials)  
+4. [Contributing](#contributing)  
+5. [License](#license)  
 
-## Reminder view and editing modes
+## 🎯 Getting Started  
+To get started, clone this repository and install the required dependencies.  
+```bash  
+git clone https://github.com/tunaarikaya/TodayApp-UIKit-AppleDevTutorialSeries.git  
+cd TodayApp-UIKit-AppleDevTutorialSeries  
+```
 
-The detail screen shows more information about a reminder, including its title, due date, time due, and additional notes. In view mode, as shown here, the reminder details appear in rows with icons. The user can alter the reminder’s details by tapping the Edit button.
+## ⭐ Features  
+- User-friendly interfaces  
+- Responsive design  
+- Extensive tutorials for various features  
 
-In editing mode, a visually distinct view displays editable fields and pickers to let the user change details. You’ll reuse this edit view to display the Add Reminder screen.
+## 📖 Tutorials  
+This section will include step-by-step guides to help you understand how to use different elements of UIKit effectively.  
 
-## Add reminder screen
+## 🤝 Contributing  
+Contributions are welcome! Please read our [Contributing guidelines](CONTRIBUTING.md) for more information on how to get involved.  
 
-The Add Reminder screen appears when the user taps the Add button (+) in the reminder list. This screen shares cells with the edit view, but presents modally instead of pushing onto the navigation stack.
+## 📜 License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
 
-## Screenshots
-<img src="/iOS-App-Dev-Tutorials/Today/Screenshots/Today.gif" width="300"/>
+## 🗓️ Current Date and Time 
+**UTC:** 2026-03-03 15:32:32  
